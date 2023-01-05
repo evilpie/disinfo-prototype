@@ -28,13 +28,15 @@ header h1 {
   margin: 0;
   text-align: center;
   padding: 0.1em;
-  width: calc(100% - 2em);
+  padding-right: 1em;
+  padding-left: 1em;
+  width: calc(100% - 4em);
   float: left;
 }
 
 header .close {
   font-size: 1.2em;
-  width: 2em;
+  width: 3em;
   color: unset;
 }
 
@@ -74,4 +76,9 @@ header .close:hover {
 
 .box img {
   display: block; /* remove white line under image */
+}
+
+#sources {
+  list-style-type: none;
+  padding-inline-start: 15px;
 }
