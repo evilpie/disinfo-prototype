@@ -1,0 +1,77 @@
+* {
+  font-family: sans-serif;
+}
+
+.box {
+  border: 1px solid black;
+  float: left;
+  border-radius: 0.2em;
+
+  margin: 0.4em;
+  max-width: 500px;
+  max-height: 500px;
+  /* background-color: green; */
+}
+
+.box header {
+  background: gray;
+  color: white;
+  border-radius: 0.2em 0.2em 0 0;
+  height: 1.8em;
+}
+
+header h1 {
+  font-weight: bold;
+  font-size: 1.2em;
+  text-transform: uppercase;
+
+  margin: 0;
+  text-align: center;
+  padding: 0.1em;
+  width: calc(100% - 2em);
+  float: left;
+}
+
+header .close {
+  font-size: 1.2em;
+  width: 2em;
+  color: unset;
+}
+
+header .close:hover {
+  color: #9b0b01;
+}
+
+#cloud {
+  margin: 0.2em;
+}
+
+#cloud span {
+  word-break: break-all;
+}
+
+#cloud span {
+  font-weight: bold;
+}
+
+/* https://blog.devgenius.io/word-cloud-with-html-and-css-tutorial-1fa17642391e */
+#cloud span:nth-of-type(2n) {
+    font-size: 2rem;
+    color: #f49e42;
+    font-weight: bold;
+}
+#cloud span:nth-of-type(3n) {
+    color: #d83208;
+}
+#cloud span:nth-of-type(5n) {
+    font-size: 3rem;
+    color: #ed0000;
+}
+#cloud span:nth-of-type(7n) {
+    font-size: 4rem;
+    color: #6b0302;
+}
+
+.box img {
+  display: block; /* remove white line under image */
+}
