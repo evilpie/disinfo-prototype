@@ -74,6 +74,15 @@ header .close:hover {
     color: #6b0302;
 }
 
+#cloud.selected span:not(.word) {
+    color: black !important;
+}
+
+span.word {
+    color: blue !important;
+    border: 5px dotted orange;
+}
+
 .box img {
   display: block; /* remove white line under image */
 }
